@@ -26,7 +26,7 @@ The faucet is a web application with the goal of distributing small amounts of E
 
 1. Clone the repository and navigate to the app’s directory
 ```bash
-git clone https://github.com/chainflag/eth-faucet.git
+git clone https://github.com/itxnetwork/eth-faucet.git
 cd eth-faucet
 ```
 

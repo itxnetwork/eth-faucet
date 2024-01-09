@@ -9,7 +9,7 @@
     account: '0x0000000000000000000000000000000000000000',
     network: 'testnet',
     payout: 1,
-    symbol: 'ETH',
+    symbol: 'ITX',
     hcaptcha_sitekey: '',
   };
 
@@ -135,7 +135,7 @@
               <span class="navbar-item">
                 <a
                   class="button is-white is-outlined"
-                  href="https://github.com/chainflag/eth-faucet"
+                  href="https://github.com/itxnetwork/eth-faucet"
                 >
                   <span class="icon">
                     <i class="fa fa-github" />
@@ -152,11 +152,11 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="column is-6 is-offset-3">
-          <h1 class="title">
+          <h1 class="title" style="color: lightgrey">
             Receive {faucetInfo.payout}
             {faucetInfo.symbol} per request
           </h1>
-          <h2 class="subtitle">
+          <h2 class="subtitle" style="color: lightgrey">
             Serving from {faucetInfo.account}
           </h2>
           <div id="hcaptcha" data-size="invisible"></div>
@@ -173,7 +173,7 @@
               <p class="control">
                 <button
                   on:click={handleRequest}
-                  class="button is-primary is-rounded"
+                  class="button is-primary is-rounded"                  
                 >
                   Request
                 </button>
